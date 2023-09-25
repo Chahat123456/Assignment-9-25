@@ -1,17 +1,15 @@
 import java.util.Scanner;
 public class login {
     public static void main(String[] args) {
-        // Define the correct username and password
         String correctUsername = "USER";
         String correctPassword = "USER123";
 
-        // Initialize the number of login attempts
+       
         int attempts = 0;
 
-        // Create a Scanner for user input
+    
         Scanner scanner = new Scanner(System.in);
 
-        // Allow the user three login attempts
         while (attempts < 3) {
             System.out.print("Enter your username: ");
             String username = scanner.nextLine();
