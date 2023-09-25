@@ -12,4 +12,5 @@ public class fizzbuzz {
             }
         }
     }
-}
+
+//code has some error which I will fix soon.
